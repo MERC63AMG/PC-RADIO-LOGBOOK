@@ -1,0 +1,40 @@
+# Build a distribution artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# PyInstaller
+*.manifest
+*.spec.bak
+__pycache__/
+*.pyc
+*.pyo
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Environment
+venv/
+env/
+ENV/
+.env
+
+# PyInstaller workpath
+__pycache__/
+.pytest_cache/
+.coverage
+
+# Map cache
+.tkintermapview_tile_cache/
+~/.tkintermapview_tile_cache/
